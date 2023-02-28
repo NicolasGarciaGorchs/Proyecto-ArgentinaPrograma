@@ -1,0 +1,332 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+body div {
+    font-family: 'Special Elite', cursive;
+}
+
+
+/* AREAS GRID */
+
+
+.grid_curriculum {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    grid-row-gap: 0.1%
+}
+
+.foto_principal { 
+    grid-area: 1 / 1 / 2 / 5; 
+    background-image: url(../assets/perfil/cesped1.jpg)
+}   
+
+.nombre_apellido { 
+    grid-area: 1 / 5 / 2 / 13; 
+    background-image: url(../assets/perfil/cesped1.jpg);
+}
+
+.datos_objetivos { 
+    grid-area: 2 / 1 / 12 / 5;
+    background-image: url(../assets/perfil/cesped1.jpg);
+    color:rgb(255, 255, 255)
+}
+
+.experiencia { 
+    grid-area: 2 / 5 / 12 / 13; 
+    padding-top: 2%;
+    background-color:white;
+}
+
+.pie_de_pagina { 
+    grid-area: 12 / 1 / 13 / 13; 
+    background-color:white;
+}    
+
+
+/* FOTO DE PERFIL*/
+
+
+.imagen_principal{
+    width:70%;
+}
+
+.centrado_imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+/* NOMBRE Y APELLIDO */
+
+
+.titulo_cv {
+    padding-top: 15%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 300%;
+    color: white;
+}
+
+
+/* DATOS Y OBJETIVOS PERSONALES */
+
+
+.datos_personales {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding:10%;
+    padding-top: 12%;
+}
+
+.centrar_titulo{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-size: 200%;
+    padding-top: 5%;
+    text-decoration: underline 1px solid white; 
+}
+
+.subrayado {
+    padding-top: 5%;
+    text-decoration: underline 1px solid white;
+}
+
+.padding_listas{
+    padding-bottom: 9%;
+}
+
+.padding_distinciones{
+    padding-bottom: 1%;
+    font-size: 100%;
+}
+
+.padding_distinciones:hover{
+    color:rgb(13, 255, 33);
+}
+
+#boton{
+    display: none;
+}
+
+.botonRedes1 {
+    text-decoration: none;
+    color:white;
+}
+
+.botonRedes2 {
+    text-decoration: none;
+    color:white;
+}
+
+.botonRedes3 {
+    text-decoration: none;
+    color:white;
+}
+
+.botonRedes1:hover{
+    background-color:rgb(0, 255, 34);
+    border-radius: 100%;
+}
+
+.botonRedes2:hover{
+    background-image: linear-gradient(to bottom, rgb(255, 0, 242), rgb(255, 197, 5));
+    border-radius: 100%;
+}
+
+.botonRedes3:hover{
+    background-color:rgb(0, 68, 255);
+    border-radius: 100%;
+}
+
+.flex_redes {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    align-items: center;    
+}
+
+.style_datos {
+    flex-direction: column;
+    font-size: 150%;
+    padding-bottom: 25%;
+    padding-top:20%;
+}
+
+.size_redes {
+    font-size:160%;
+}
+
+.size_guardar{
+    font-size:90%;
+}
+
+.size_premios{
+    font-size: 50%;
+}
+
+.size_distinciones {
+    font-size:100%;
+    padding-bottom:25%;
+}
+
+.padding_guardar{
+    padding-bottom: 10%;
+}
+
+.padding_premios{
+    padding-bottom: 5%;
+}
+
+#premios {
+    display:none;
+}
+
+#premios1 {
+    display:none;
+}
+
+#premios2 {
+    display:none;
+}
+
+#premios3 {
+    display:none;
+}
+
+#premios4 {
+    display:none;
+}
+
+#premios5 {
+    display:none;
+}
+
+#premios6 {
+    display:none;
+}
+
+#premios7 {
+    display:none;
+}
+
+#premios8 {
+    display:none;
+}
+
+#premios9{
+    display:none;
+}
+
+#premios10 {
+    display:none;
+}
+
+#premios11 {
+    display:none;
+}
+
+#premios12 {
+    display:none;
+}
+
+#premios13 {
+    display:none;
+}
+
+#premios14 {
+    display:none;
+}
+
+#premios15 {
+    display:none;
+}
+
+#premios16 {
+    display:none;
+}
+
+#premios17 {
+    display:none;
+}
+
+#premios18 {
+    display:none;
+}
+
+#premios19 {
+    display:none;
+}
+
+#premios20 {
+    display:none;
+}
+
+#premios21 {
+    display:none;
+}
+
+/* EXPERIENCIA */
+
+
+body {
+    background-image: url(../assets/perfil/cesped1.jpg);
+}
+
+.experiencia_flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5%;
+    font-size: 120%;
+}
+
+.titulo_carrera {
+    background-image: url(../assets/perfil/cesped1.jpg);
+    font-size: 150%;
+    padding: 1%;
+    color:white;
+}
+
+.size_texto_exp {
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.fotos_clubes {
+    width:15%;
+    padding-bottom: 5%;
+    padding-top: 7%;
+    transition: width 0.1s;
+}
+
+.fotos_clubes:hover {
+    width: 16%;
+}
+
+.padding_escudos {
+    padding-bottom: 10%;
+}
+
+
+/* FOOTER */
+
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding-top: 14%;
+    align-items: center;
+    font-size: 120%;
+}
